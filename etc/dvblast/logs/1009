@@ -1,0 +1,223 @@
+DVBlast 2.2 (release)
+warning: restarting
+warning: raw UDP output is deprecated.  Please consider using RTP.
+warning: for DVB-IP compliance you should use RTP.
+debug: using linux-dvb API version 5
+debug: Frontend "STB0899 Multistandard" type "QPSK (DVB-S/S2)" supports:
+debug:  frequency min: 950000, max: 2150000, stepsize: 0, tolerance: 0
+debug:  symbolrate min: 5000000, max: 45000000, tolerance: 0
+debug:  capabilities:
+debug:   INVERSION_AUTO
+debug:   FEC_AUTO
+debug:   QPSK
+debug:   2G_MODULATION
+debug: frequency 11137000 is in Ku-band (lower)
+debug: configuring LNB to v=18 p=0 satnum=1
+debug: tuning QPSK frontend to f=11137000 srate=27500000 inversion=-1 fec=999 rolloff=35 modulation=legacy pilot=-1
+warning: failed opening CAM device /dev/dvb/adapter1009/ca0 (No such file or directory)
+debug: setting filter on PID 0
+debug: setting filter on PID 16
+debug: setting filter on PID 17
+debug: setting filter on PID 18
+debug: setting filter on PID 19
+debug: setting filter on PID 20
+warning: couldn't set thread priority: Operation not permitted
+debug: conf: 239.2.3.1:1234 config=0x9 sid=7321 pids[0]
+debug: conf: 239.2.3.2:1234 config=0x9 sid=7322 pids[0]
+debug: conf: 239.2.3.3:1234 config=0x9 sid=7327 pids[0]
+debug: conf: 239.2.3.4:1234 config=0x9 sid=7304 pids[0]
+debug: conf: 239.2.3.5:1234 config=0x9 sid=7333 pids[0]
+debug: conf: 239.2.3.6:1234 config=0x9 sid=7332 pids[0]
+debug: frontend has acquired carrier
+debug: frontend has acquired stable FEC
+debug: frontend has acquired sync
+info: frontend has acquired lock
+debug: - Bit error rate: 0
+debug: - Signal strength: 128
+debug: - SNR: 119
+debug: setting filter on PID 717
+debug: setting filter on PID 719
+debug: setting filter on PID 259
+debug: setting filter on PID 33
+debug: new PAT tsid=13100 version=12
+debug:   * NIT pid=16
+debug:   * program number=7302 pid=265
+debug:   * program number=7303 pid=263
+debug:   * program number=7321 pid=717
+debug:   * program number=7322 pid=719
+debug:   * program number=7324 pid=32
+debug:   * program number=7325 pid=270
+debug:   * program number=7326 pid=258
+debug:   * program number=7327 pid=259
+debug:   * program number=7333 pid=33
+debug:   * program number=7334 pid=274
+debug:   * program number=7335 pid=275
+debug:   * program number=7337 pid=277
+debug:   * program number=7339 pid=279
+debug:   * program number=7341 pid=281
+debug:   * program number=7342 pid=282
+debug:   * program number=7343 pid=283
+debug:   * program number=7345 pid=285
+debug: end PAT
+debug: new SDT actual tsid=13100 version=12 onid=318
+debug:   * service sid=7302 running=4
+debug:     - desc 48 service type=0x1 provider="Arqiva" service="Bloomberg European TV"
+debug:   * service sid=7303 running=4
+debug:     - desc 48 service type=0x1 provider="Arqiva" service="ITN"
+debug:   * service sid=7321 running=4
+debug:     - desc 48 service type=0x1 provider="Arqiva" service="TV5MONDE FBS"
+debug:   * service sid=7322 running=4
+debug:     - desc 48 service type=0x1 provider="Arqiva" service="TV5MONDE EUROPE"
+debug:   * service sid=7324 eit_pf running=4 scrambled
+debug:     - desc 48 service type=0x1 provider="Arqiva" service="Crime and Investigation nc+"
+debug:   * service sid=7325 running=4 scrambled
+debug:     - desc 48 service type=0x1 provider="Arqiva" service="Crime + Investigation"
+debug:   * service sid=7326 running=4
+debug:     - desc 48 service type=0x1 provider="Arqiva" service="Kurdistan TV"
+debug:   * service sid=7327 running=4
+debug:     - desc 48 service type=0x1 provider="Arqiva" service="NHK World"
+debug:   * service sid=7333 running=4
+debug:     - desc 48 service type=0x1 provider="Arqiva" service="GEM TV"
+debug:   * service sid=7334 running=4
+debug:     - desc 48 service type=0x1 provider="Arqiva" service="AB Channel"
+debug:   * service sid=7335 running=4
+debug:     - desc 48 service type=0x1 provider="Arqiva" service="SRI TV"
+debug:   * service sid=7337 running=4
+debug:     - desc 48 service type=0x2 provider="Arqiva" service="Rang a Rang"
+debug:   * service sid=7339 running=4
+debug:     - desc 48 service type=0x2 provider="Arqiva" service="Radio Expert"
+debug:   * service sid=7341 running=4
+debug:     - desc 48 service type=0x1 provider="Arqiva" service="Fadak TV"
+debug:   * service sid=7342 running=4
+debug:     - desc 48 service type=0x1 provider="Arqiva" service="Wesal TV"
+debug:   * service sid=7343 running=4
+debug:     - desc 48 service type=0x1 provider="Ariva" service="Gioielli per Tutti"
+debug:   * service sid=7345 running=4
+debug:     - desc 48 service type=0x1 provider="Arqiva" service="IRAN B MARZ"
+debug: end SDT
+debug: setting filter on PID 3533
+debug: setting filter on PID 3653
+debug: new PMT program=7333 version=15 pcrpid=3533
+debug:   * ES pid=3533 streamtype=0x02 streamtype_txt="13818-2 video (MPEG-2)"
+debug:     - desc 0e maximum_bitrate max_bitrate=5000 max_bitrate_decoded=250000
+debug:     - desc 06 data_stream_alignment alignment=4 alignment_txt="SEQ"
+debug:     - desc 52 stream_identifier component_tag=1
+debug:   * ES pid=3653 streamtype=0x04 streamtype_txt="13818-3 audio (MPEG-2)"
+debug:     - desc 0a audio_language language=eng audiotype=0 audiotype_txt="undefined"
+debug:     - desc 52 stream_identifier component_tag=2
+debug:     - desc 0e maximum_bitrate max_bitrate=5000 max_bitrate_decoded=250000
+debug: end PMT
+debug: setting filter on PID 3521
+debug: setting filter on PID 3601
+debug: setting filter on PID 3641
+debug: new PMT program=7321 version=14 pcrpid=3521
+debug:   * ES pid=3521 streamtype=0x02 streamtype_txt="13818-2 video (MPEG-2)"
+debug:     - desc 02 video_stream multiple_frame_rate=0 frame_rate_code=3 frame_rate_txt="25.00" mpeg1_only=0 constraint_parameter=1 still_picture=0 profile=12 profile_txt="Reserved" level=8 level_txt="Main" chroma_format=1 chroma_format_txt="4:2:0" frame_rate_extension=0
+debug:   * ES pid=3601 streamtype=0x06 streamtype_txt="13818-1 PES private data"
+debug:     - desc 45 vbi_data service_id=0x01 length=18 service_txt="EBU teletext"
+debug:         - vbi_data field_parity=0 line_offset=7
+debug:         - vbi_data field_parity=0 line_offset=8
+debug:         - vbi_data field_parity=0 line_offset=9
+debug:         - vbi_data field_parity=0 line_offset=10
+debug:         - vbi_data field_parity=0 line_offset=12
+debug:         - vbi_data field_parity=0 line_offset=13
+debug:         - vbi_data field_parity=0 line_offset=14
+debug:         - vbi_data field_parity=0 line_offset=15
+debug:         - vbi_data field_parity=0 line_offset=16
+debug:         - vbi_data field_parity=1 line_offset=7
+debug:         - vbi_data field_parity=1 line_offset=8
+debug:         - vbi_data field_parity=1 line_offset=9
+debug:         - vbi_data field_parity=1 line_offset=10
+debug:         - vbi_data field_parity=1 line_offset=12
+debug:         - vbi_data field_parity=1 line_offset=13
+debug:         - vbi_data field_parity=1 line_offset=14
+debug:         - vbi_data field_parity=1 line_offset=15
+debug:         - vbi_data field_parity=1 line_offset=16
+debug:     - desc 45 vbi_data service_id=0x05 length=1 service_txt="WSS"
+debug:         - vbi_data field_parity=1 line_offset=23
+debug:     - desc c3 unknown length=3 value=0501f7
+debug:     - desc 56 telx language=fra type=0x2 type_txt="Teletext subtitle page" mag=0 page=0x136x
+debug:   * ES pid=3641 streamtype=0x03 streamtype_txt="11172-3 audio (MPEG-1)"
+debug:     - desc 03 audio_stream free_format_tag=0 ID=1 layer=2 ID_txt="MPEG Audio" layer_txt="Layer II" vbr_audio_flag=0
+debug:     - desc 0a audio_language language=fra audiotype=0 audiotype_txt="undefined"
+debug: end PMT
+debug: setting filter on PID 3527
+debug: setting filter on PID 3647
+debug: new PMT program=7327 version=9 pcrpid=3527
+debug:   * ES pid=3527 streamtype=0x02 streamtype_txt="13818-2 video (MPEG-2)"
+debug:     - desc 0e maximum_bitrate max_bitrate=5000 max_bitrate_decoded=250000
+debug:     - desc 06 data_stream_alignment alignment=4 alignment_txt="SEQ"
+debug:   * ES pid=3647 streamtype=0x04 streamtype_txt="13818-3 audio (MPEG-2)"
+debug:     - desc 0e maximum_bitrate max_bitrate=5000 max_bitrate_decoded=250000
+debug: end PMT
+debug: setting filter on PID 3522
+debug: setting filter on PID 3602
+debug: setting filter on PID 3642
+debug: setting filter on PID 3652
+debug: setting filter on PID 3682
+debug: setting filter on PID 3702
+debug: setting filter on PID 3712
+debug: setting filter on PID 3722
+debug: setting filter on PID 3762
+debug: setting filter on PID 3782
+debug: new PMT program=7322 version=14 pcrpid=3522
+debug:   * ES pid=3522 streamtype=0x02 streamtype_txt="13818-2 video (MPEG-2)"
+debug:     - desc 02 video_stream multiple_frame_rate=0 frame_rate_code=3 frame_rate_txt="25.00" mpeg1_only=0 constraint_parameter=1 still_picture=0 profile=4 profile_txt="Main" level=8 level_txt="Main" chroma_format=1 chroma_format_txt="4:2:0" frame_rate_extension=0
+debug:   * ES pid=3602 streamtype=0x06 streamtype_txt="13818-1 PES private data"
+debug:     - desc 56 telx language=fra type=0x2 type_txt="Teletext subtitle page" mag=0 page=0x145x
+debug:     - desc 56 telx language=eng type=0x2 type_txt="Teletext subtitle page" mag=0 page=0x146x
+debug:     - desc c3 unknown length=3 value=0501f7
+debug:     - desc 45 vbi_data service_id=0x01 length=18 service_txt="EBU teletext"
+debug:         - vbi_data field_parity=0 line_offset=7
+debug:         - vbi_data field_parity=0 line_offset=8
+debug:         - vbi_data field_parity=0 line_offset=9
+debug:         - vbi_data field_parity=0 line_offset=10
+debug:         - vbi_data field_parity=0 line_offset=12
+debug:         - vbi_data field_parity=0 line_offset=13
+debug:         - vbi_data field_parity=0 line_offset=14
+debug:         - vbi_data field_parity=0 line_offset=15
+debug:         - vbi_data field_parity=0 line_offset=16
+debug:         - vbi_data field_parity=1 line_offset=7
+debug:         - vbi_data field_parity=1 line_offset=8
+debug:         - vbi_data field_parity=1 line_offset=9
+debug:         - vbi_data field_parity=1 line_offset=10
+debug:         - vbi_data field_parity=1 line_offset=12
+debug:         - vbi_data field_parity=1 line_offset=13
+debug:         - vbi_data field_parity=1 line_offset=14
+debug:         - vbi_data field_parity=1 line_offset=15
+debug:         - vbi_data field_parity=1 line_offset=16
+debug:     - desc 45 vbi_data service_id=0x05 length=1 service_txt="WSS"
+debug:         - vbi_data field_parity=1 line_offset=23
+debug:   * ES pid=3642 streamtype=0x03 streamtype_txt="11172-3 audio (MPEG-1)"
+debug:     - desc 03 audio_stream free_format_tag=0 ID=1 layer=2 ID_txt="MPEG Audio" layer_txt="Layer II" vbr_audio_flag=0
+debug:     - desc 0a audio_language language=fra audiotype=0 audiotype_txt="undefined"
+debug:   * ES pid=3652 streamtype=0x06 streamtype_txt="13818-1 PES private data"
+debug:     - desc 59 subtitling language=rus type=0x10 composition=2 ancillary=2
+debug:   * ES pid=3682 streamtype=0x06 streamtype_txt="13818-1 PES private data"
+debug:     - desc 59 subtitling language=deu type=0x10 composition=2 ancillary=2
+debug:   * ES pid=3702 streamtype=0x06 streamtype_txt="13818-1 PES private data"
+debug:     - desc 59 subtitling language=dut type=0x10 composition=2 ancillary=2
+debug:   * ES pid=3712 streamtype=0x06 streamtype_txt="13818-1 PES private data"
+debug:     - desc 59 subtitling language=rum type=0x10 composition=2 ancillary=2
+debug:   * ES pid=3722 streamtype=0x06 streamtype_txt="13818-1 PES private data"
+debug:     - desc 59 subtitling language=eng type=0x10 composition=2 ancillary=2
+debug:   * ES pid=3762 streamtype=0x06 streamtype_txt="13818-1 PES private data"
+debug:     - desc 59 subtitling language=fra type=0x10 composition=2 ancillary=2
+debug:   * ES pid=3782 streamtype=0x06 streamtype_txt="13818-1 PES private data"
+debug:     - desc 59 subtitling language=pol type=0x10 composition=2 ancillary=2
+debug: end PMT
+debug: new NIT actual networkid=318 version=1
+debug:     - desc 40 networkname="Hotbird 6"
+debug:   * ts tsid=13100 onid=318
+debug:     - desc 43 dvb-s frequency=11137630H pos=13.0E modulation=qpsk symbolrate=27500000 fecinner=3/4
+debug: end NIT
+warning: TS discontinuity on pid 3527 expected_cc  7 got 12 (H.262/13818-2 video (MPEG-2) or 11172-2 constrained video, sid 7327)
+warning: TS discontinuity on pid 3527 expected_cc  3 got  4 (H.262/13818-2 video (MPEG-2) or 11172-2 constrained video, sid 7327)
+warning: TS discontinuity on pid 3527 expected_cc 14 got 10 (H.262/13818-2 video (MPEG-2) or 11172-2 constrained video, sid 7327)
+warning: TS discontinuity on pid 3647 expected_cc 14 got 15 (13818-3 audio (MPEG-2), sid 7327)
+warning: TS discontinuity on pid 3527 expected_cc 11 got  8 (H.262/13818-2 video (MPEG-2) or 11172-2 constrained video, sid 7327)
+warning: TS discontinuity on pid 3527 expected_cc  9 got 10 (H.262/13818-2 video (MPEG-2) or 11172-2 constrained video, sid 7327)
+debug: answering 2 to 3 with size 184
+warning: TS discontinuity on pid 3527 expected_cc  5 got 12 (H.262/13818-2 video (MPEG-2) or 11172-2 constrained video, sid 7327)
+warning: TS discontinuity on pid 3527 expected_cc  5 got 11 (H.262/13818-2 video (MPEG-2) or 11172-2 constrained video, sid 7327)
+warning: TS discontinuity on pid 3527 expected_cc 13 got  6 (H.262/13818-2 video (MPEG-2) or 11172-2 constrained video, sid 7327)

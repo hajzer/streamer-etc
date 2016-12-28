@@ -1,0 +1,292 @@
+DVBlast 2.2 (release)
+warning: restarting
+warning: raw UDP output is deprecated.  Please consider using RTP.
+warning: for DVB-IP compliance you should use RTP.
+debug: using linux-dvb API version 5
+debug: Frontend "STB0899 Multistandard" type "QPSK (DVB-S/S2)" supports:
+debug:  frequency min: 950000, max: 2150000, stepsize: 0, tolerance: 0
+debug:  symbolrate min: 5000000, max: 45000000, tolerance: 0
+debug:  capabilities:
+debug:   INVERSION_AUTO
+debug:   FEC_AUTO
+debug:   QPSK
+debug:   2G_MODULATION
+debug: frequency 12051000 is in Ku-band (higher)
+debug: configuring LNB to v=13 p=0 satnum=4
+debug: tuning QPSK frontend to f=12051000 srate=27500000 inversion=-1 fec=999 rolloff=35 modulation=legacy pilot=-1
+warning: failed opening CAM device /dev/dvb/adapter1007/ca0 (No such file or directory)
+debug: setting filter on PID 0
+debug: setting filter on PID 16
+debug: setting filter on PID 17
+debug: setting filter on PID 18
+debug: setting filter on PID 19
+debug: setting filter on PID 20
+warning: couldn't set thread priority: Operation not permitted
+debug: conf: 239.2.6.1:1234 config=0x9 sid=7140 pids[0]
+debug: frontend has acquired carrier
+debug: frontend has acquired stable FEC
+debug: frontend has acquired sync
+info: frontend has acquired lock
+debug: - Bit error rate: 0
+debug: - Signal strength: 207
+debug: - SNR: 118
+debug: setting filter on PID 256
+debug: new PAT tsid=2018 version=10
+debug:   * program number=7100 pid=263
+debug:   * program number=7101 pid=262
+debug:   * program number=7102 pid=266
+debug:   * program number=7103 pid=257
+debug:   * program number=7108 pid=258
+debug:   * program number=7109 pid=265
+debug:   * program number=7140 pid=256
+debug: end PAT
+debug: setting filter on PID 2320
+debug: setting filter on PID 2321
+debug: setting filter on PID 2322
+debug: new PMT program=7140 version=14 pcrpid=2320
+debug:   * ES pid=2320 streamtype=0x02 streamtype_txt="13818-2 video (MPEG-2)"
+debug:     - desc 06 data_stream_alignment alignment=4 alignment_txt="SEQ"
+debug:     - desc 52 stream_identifier component_tag=1
+debug:   * ES pid=2321 streamtype=0x04 streamtype_txt="13818-3 audio (MPEG-2)"
+debug:     - desc 0a audio_language language=eng audiotype=1 audiotype_txt="clean effects"
+debug:     - desc 52 stream_identifier component_tag=2
+debug:   * ES pid=2322 streamtype=0x06 streamtype_txt="13818-1 PES private data"
+debug:     - desc 56 telx language=eng type=0x1 type_txt="Initial teletext page" mag=1 page=0x0x
+debug:     - desc 52 stream_identifier component_tag=6
+debug:   * ES pid=3840 streamtype=0x05 streamtype_txt="13818-1 private sections"
+debug:     - desc 52 stream_identifier component_tag=81
+debug:     - desc 5f private_data specifier=0x46534154
+debug:     - desc d1 unknown length=1 value=07
+debug:   * ES pid=3841 streamtype=0x05 streamtype_txt="13818-1 private sections"
+debug:     - desc 52 stream_identifier component_tag=82
+debug:     - desc 5f private_data specifier=0x46534154
+debug:     - desc d1 unknown length=2 value=0304
+debug:   * ES pid=3842 streamtype=0x05 streamtype_txt="13818-1 private sections"
+debug:     - desc 52 stream_identifier component_tag=83
+debug:     - desc 5f private_data specifier=0x46534154
+debug:     - desc d1 unknown length=1 value=01
+debug:   * ES pid=3843 streamtype=0x05 streamtype_txt="13818-1 private sections"
+debug:     - desc 52 stream_identifier component_tag=84
+debug:     - desc 5f private_data specifier=0x46534154
+debug:     - desc d1 unknown length=1 value=02
+debug:   * ES pid=3844 streamtype=0x05 streamtype_txt="13818-1 private sections"
+debug:     - desc 52 stream_identifier component_tag=85
+debug:     - desc 5f private_data specifier=0x46534154
+debug:     - desc d1 unknown length=2 value=0506
+debug: end PMT
+debug: new SDT actual tsid=2018 version=1 onid=2
+debug:   * service sid=7100 eit_schedule eit_pf running=4 scrambled
+debug:     - desc 48 service type=0x1 provider="BSkyB" service="Cartoon Netwrk"
+debug:     - desc 49 country_availability available=1 country=GBR
+debug:     - desc 49 country_availability available=1 country=IRL
+debug:     - desc 5f private_data specifier=0x00000002
+debug:     - desc b2 unknown length=136 value=1d015022a9aae308dd571843eea8f41dd57187f3c1b55c016355c608b903df59fa5aae308ddd026c6e8129d07774094a3aae3024d5dbcdf5665fdb09808eab8c04f05bc03925e1e41b997d571823eab8c22f55c6049ab32fd21aae306dd5718346e81dbc9a6ae3052afddb59b3aae3044d5718667a8147ba0abbd68adbfab629c3f96aeae30696bd
+debug:   * service sid=7101 eit_schedule eit_pf running=4 scrambled
+debug:     - desc 48 service type=0x1 provider="BSkyB" service="Boomerang +1"
+debug:     - desc 49 country_availability available=1 country=GBR
+debug:     - desc 49 country_availability available=1 country=IRL
+debug:     - desc 5f private_data specifier=0x00000002
+debug:     - desc b2 unknown length=130 value=1d01502a935ad11d0cd43b495bc355c608b84f267c118be399eab8c2370b3af41dc29f2246c61e9686402ab8c09355c61fcdd11f6c26023aae3013c16f00e49787906e65f55c608faae308bd5718126accbf486ab8c1b755c60d1ba076f269ab8c14abf76d66ceab8c11355c6199ea051ee82aef5a2b6fead8a70fe5abab8c1a5af5
+debug:   * service sid=7102 eit_schedule eit_pf running=4 scrambled
+debug:     - desc 48 service type=0x1 provider="BSkyB" service="Boomerang"
+debug:     - desc 49 country_availability available=1 country=GBR
+debug:     - desc 49 country_availability available=1 country=IRL
+debug:     - desc 5f private_data specifier=0x00000002
+debug:     - desc b2 unknown length=130 value=1d01502a935ad11d0cd43b495bc355c608b84f267c118be399eab8c2370b3af41dc29f2246c61e9686402ab8c09355c61fcdd11f6c26023aae3013c16f00e49787906e65f55c608faae308bd5718126accbf486ab8c1b755c60d1ba076f269ab8c14abf76d66ceab8c11355c6199ea051ee82aef5a2b6fead8a70fe5abab8c1a5af5
+debug:   * service sid=7103 eit_schedule eit_pf running=4 scrambled
+debug:     - desc 48 service type=0x1 provider="BSkyB" service="CN Too"
+debug:     - desc 49 country_availability available=1 country=GBR
+debug:     - desc 49 country_availability available=1 country=IRL
+debug:     - desc 5f private_data specifier=0x00000002
+debug:     - desc b2 unknown length=149 value=1d015022a9aae308dd571843ee1e0da7965ab8c1a755c6041b992ab8c236ae30690d34ab8c1a63054feab8c1fb55c60d1aae3087d0daeebe0db992ab8c236ae30690d571822eab8375fd863281db09808eab8c04f05bc03925e1e41b997d571823eab8c22f486ab8c1b755c60d1ba076f269ab8c14abf76d66ceab8c11355c6199ea051ee82aef5a2b6fead8a70fe5abab8c1a5af5
+debug:   * service sid=7108 running=4 scrambled
+debug:     - desc 48 service type=0x1 provider="BSkyB" service="Toonami I"
+debug:     - desc 49 country_availability available=1 country=GBR
+debug:     - desc 49 country_availability available=1 country=IRL
+debug:     - desc 5f private_data specifier=0x00000002
+debug:     - desc b2 unknown length=141 value=000150059d5c60d335ae50d140a1ae76906ab8c1a34d29a7965ab8c1a74bad72cb571834f6daae3015c2ceae30699ad755c6101a158eedaae3087d57182273e1aae3068d199a755c6049bea2d2c6ab8c117557e2e2ab041b84b353f55c614584c0fa7d5c611a56355c611baae3087dcd5c60d20d2edb9ab8c1a61a2f2c1aae3068dc7298eae3069e134a6ea855
+debug:   * service sid=7109 eit_schedule eit_pf running=4 scrambled
+debug:     - desc 48 service type=0x1 provider="BSkyB" service="Cartoon I"
+debug:     - desc 49 country_availability available=1 country=GBR
+debug:     - desc 49 country_availability available=1 country=IRL
+debug:     - desc 5f private_data specifier=0x00000002
+debug:     - desc b2 unknown length=136 value=1d01502ae0dd7f618ca0650d571843eab8c29208342a40da6948be64aae308dab8c1a7737977fa68bd571843eb9d7faae3068d571843e8cbe5bc1b55c611b571834869a532651b1aae303c4ca3aae3045c9919f32d29936840b1aae3041ab8c14a3d3a95718297eab8c1a355c611daae308dab8c1a755c605e1aae3024d34a665aff43350ed256f0
+debug:   * service sid=7140 eit_schedule eit_pf running=4
+debug:     - desc 48 service type=0x1 provider="BSkyB" service="CNN"
+debug:     - desc 49 country_availability available=1 country=GBR
+debug:     - desc 49 country_availability available=1 country=IRL
+debug:     - desc 5f private_data specifier=0x00000002
+debug:     - desc b2 unknown length=122 value=1d01b00548ea2a7c355c6129e41a48ed74eab8c21f55c6149aae30a2d38be35ab8c1a668a1e9d140a11773b4b55c60ca183caa2f3faae30a2d57182a6ab8c194355c60d3aae3087d73b4ac6ab8c0a755c60ca16355c6083faae3075ab8c14a3d571812642ebf5e083314a7eb9281b817cc0ab8c14a3d57183285
+debug: end SDT
+debug: new NIT actual networkid=32 version=8
+debug:     - desc 40 networkname="ASTRA"
+debug:   * ts tsid=2032 onid=2
+debug:     - desc 43 dvb-s2 frequency=12324000V pos=28.2E rolloff=0.35 modulation=qpsk symbolrate=29500000 fecinner=3/4
+debug:   * ts tsid=2005 onid=2
+debug:     - desc 43 dvb-s2 frequency=11797500H pos=28.2E rolloff=0.35 modulation=qpsk symbolrate=29500000 fecinner=3/4
+debug:   * ts tsid=2033 onid=2
+debug:     - desc 43 dvb-s2 frequency=12343500H pos=28.2E rolloff=0.35 modulation=qpsk symbolrate=29500000 fecinner=3/4
+debug:   * ts tsid=2001 onid=2
+debug:     - desc 43 dvb-s2 frequency=11719500H pos=28.2E rolloff=0.35 modulation=qpsk symbolrate=29500000 fecinner=3/4
+debug:   * ts tsid=2034 onid=2
+debug:     - desc 43 dvb-s2 frequency=12363000V pos=28.2E rolloff=0.35 modulation=qpsk symbolrate=29500000 fecinner=3/4
+debug:   * ts tsid=2016 onid=2
+debug:     - desc 43 dvb-s2 frequency=12012000V pos=28.2E rolloff=0.35 modulation=qpsk symbolrate=29500000 fecinner=3/4
+debug:   * ts tsid=2028 onid=2
+debug:     - desc 43 dvb-s2 frequency=12246000V pos=28.2E rolloff=0.35 modulation=qpsk symbolrate=29500000 fecinner=3/4
+debug:   * ts tsid=2024 onid=2
+debug:     - desc 43 dvb-s2 frequency=12168000V pos=28.2E rolloff=0.35 modulation=qpsk symbolrate=29500000 fecinner=3/4
+debug:   * ts tsid=2008 onid=2
+debug:     - desc 43 dvb-s2 frequency=11856000V pos=28.2E rolloff=0.35 modulation=qpsk symbolrate=29500000 fecinner=3/4
+debug:   * ts tsid=2035 onid=2
+debug:     - desc 43 dvb-s2 frequency=12382500H pos=28.2E rolloff=0.35 modulation=qpsk symbolrate=29500000 fecinner=3/4
+debug:   * ts tsid=2039 onid=2
+debug:     - desc 43 dvb-s2 frequency=12460500H pos=28.2E rolloff=0.35 modulation=qpsk symbolrate=29500000 fecinner=3/4
+debug:   * ts tsid=2056 onid=2
+debug:     - desc 43 dvb-s2 frequency=10935500V pos=28.2E rolloff=0.25 modulation=8psk symbolrate=23000000 fecinner=2/3
+debug:   * ts tsid=2029 onid=2
+debug:     - desc 43 dvb-s2 frequency=12265500H pos=28.2E rolloff=0.35 modulation=qpsk symbolrate=29500000 fecinner=3/4
+debug:   * ts tsid=2020 onid=2
+debug:     - desc 43 dvb-s2 frequency=12090000V pos=28.2E rolloff=0.35 modulation=qpsk symbolrate=29500000 fecinner=3/4
+debug:   * ts tsid=2003 onid=2
+debug:     - desc 43 dvb-s2 frequency=11758500H pos=28.2E rolloff=0.35 modulation=qpsk symbolrate=29500000 fecinner=3/4
+debug:   * ts tsid=2027 onid=2
+debug:     - desc 43 dvb-s2 frequency=12226500H pos=28.2E rolloff=0.35 modulation=qpsk symbolrate=29500000 fecinner=3/4
+debug:   * ts tsid=2401 onid=2
+debug:     - desc 43 dvb-s2 frequency=11469230H pos=28.2E rolloff=0.35 modulation=qpsk symbolrate=29500000 fecinner=3/4
+debug:   * ts tsid=2004 onid=2
+debug:     - desc 43 dvb-s frequency=11778000V pos=28.2E modulation=qpsk symbolrate=27500000 fecinner=2/3
+debug:   * ts tsid=2021 onid=2
+debug:     - desc 43 dvb-s frequency=12109500H pos=28.2E modulation=qpsk symbolrate=27500000 fecinner=2/3
+debug:   * ts tsid=2007 onid=2
+debug:     - desc 43 dvb-s frequency=11836500H pos=28.2E modulation=qpsk symbolrate=27500000 fecinner=2/3
+debug:   * ts tsid=2002 onid=2
+debug:     - desc 43 dvb-s frequency=11739000V pos=28.2E modulation=qpsk symbolrate=27500000 fecinner=2/3
+debug:   * ts tsid=2012 onid=2
+debug:     - desc 43 dvb-s frequency=11934000V pos=28.2E modulation=qpsk symbolrate=27500000 fecinner=2/3
+debug:   * ts tsid=2030 onid=2
+debug:     - desc 43 dvb-s frequency=12285000V pos=28.2E modulation=qpsk symbolrate=27500000 fecinner=2/3
+debug:   * ts tsid=2023 onid=2
+debug:     - desc 43 dvb-s frequency=12148500H pos=28.2E modulation=qpsk symbolrate=27500000 fecinner=2/3
+debug:   * ts tsid=2406 onid=2
+debug:     - desc 43 dvb-s frequency=11565380V pos=28.2E modulation=qpsk symbolrate=27500000 fecinner=2/3
+debug:   * ts tsid=2019 onid=2
+debug:     - desc 43 dvb-s frequency=12070500H pos=28.2E modulation=qpsk symbolrate=27500000 fecinner=2/3
+debug:   * ts tsid=2026 onid=2
+debug:     - desc 43 dvb-s frequency=12207000V pos=28.2E modulation=qpsk symbolrate=27500000 fecinner=2/3
+debug:   * ts tsid=2052 onid=2
+debug:     - desc 43 dvb-s frequency=10876500V pos=28.2E modulation=qpsk symbolrate=22000000 fecinner=5/6
+debug:   * ts tsid=2403 onid=2
+debug:     - desc 43 dvb-s frequency=11507690H pos=28.2E modulation=qpsk symbolrate=27500000 fecinner=2/3
+debug:   * ts tsid=2051 onid=2
+debug:     - desc 43 dvb-s frequency=10861750H pos=28.2E modulation=qpsk symbolrate=22000000 fecinner=5/6
+debug:   * ts tsid=2011 onid=2
+debug:     - desc 43 dvb-s frequency=11914500H pos=28.2E modulation=qpsk symbolrate=27500000 fecinner=2/3
+debug:   * ts tsid=2408 onid=2
+debug:     - desc 43 dvb-s frequency=11603850V pos=28.2E modulation=qpsk symbolrate=27500000 fecinner=2/3
+debug:   * ts tsid=2043 onid=2
+debug:     - desc 43 dvb-s frequency=10743750H pos=28.2E modulation=qpsk symbolrate=22000000 fecinner=5/6
+debug:   * ts tsid=2045 onid=2
+debug:     - desc 43 dvb-s frequency=10773250H pos=28.2E modulation=qpsk symbolrate=22000000 fecinner=5/6
+debug:   * ts tsid=2047 onid=2
+debug:     - desc 43 dvb-s frequency=10802750H pos=28.2E modulation=qpsk symbolrate=22000000 fecinner=5/6
+debug:   * ts tsid=2050 onid=2
+debug:     - desc 43 dvb-s2 frequency=10847000V pos=28.2E rolloff=0.25 modulation=8psk symbolrate=23000000 fecinner=2/3
+debug:   * ts tsid=2046 onid=2
+debug:     - desc 43 dvb-s frequency=10788000V pos=28.2E modulation=qpsk symbolrate=22000000 fecinner=5/6
+debug:   * ts tsid=2048 onid=2
+debug:     - desc 43 dvb-s frequency=10817500V pos=28.2E modulation=qpsk symbolrate=22000000 fecinner=5/6
+debug:   * ts tsid=2013 onid=2
+debug:     - desc 43 dvb-s frequency=11953500H pos=28.2E modulation=qpsk symbolrate=27500000 fecinner=2/3
+debug:   * ts tsid=2061 onid=2
+debug:     - desc 43 dvb-s2 frequency=11023250H pos=28.2E rolloff=0.25 modulation=8psk symbolrate=23000000 fecinner=2/3
+debug:   * ts tsid=2010 onid=2
+debug:     - desc 43 dvb-s frequency=11895000V pos=28.2E modulation=qpsk symbolrate=27500000 fecinner=2/3
+debug:   * ts tsid=2614 onid=2
+debug:     - desc 43 dvb-s frequency=12606650V pos=28.2E modulation=qpsk symbolrate=27500000 fecinner=2/3
+debug:   * ts tsid=2306 onid=2
+debug:     - desc 43 dvb-s frequency=11426330V pos=28.2E modulation=qpsk symbolrate=27500000 fecinner=2/3
+debug:   * ts tsid=2014 onid=2
+debug:     - desc 43 dvb-s frequency=11973000V pos=28.2E modulation=qpsk symbolrate=27500000 fecinner=2/3
+debug:   * ts tsid=2407 onid=2
+debug:     - desc 43 dvb-s2 frequency=11584620H pos=28.2E rolloff=0.20 modulation=qpsk symbolrate=29500000 fecinner=3/4
+debug:   * ts tsid=2405 onid=2
+debug:     - desc 43 dvb-s frequency=11546150H pos=28.2E modulation=qpsk symbolrate=27500000 fecinner=2/3
+debug:   * ts tsid=2404 onid=2
+debug:     - desc 43 dvb-s frequency=11526920V pos=28.2E modulation=qpsk symbolrate=27500000 fecinner=2/3
+debug:   * ts tsid=2612 onid=2
+debug:     - desc 43 dvb-s frequency=12523000V pos=28.2E modulation=qpsk symbolrate=27500000 fecinner=2/3
+debug:   * ts tsid=2312 onid=2
+debug:     - desc 43 dvb-s frequency=11223670V pos=28.2E modulation=qpsk symbolrate=27500000 fecinner=2/3
+debug:   * ts tsid=2412 onid=2
+debug:     - desc 43 dvb-s frequency=11680770V pos=28.2E modulation=qpsk symbolrate=27500000 fecinner=2/3
+debug:   * ts tsid=2411 onid=2
+debug:     - desc 43 dvb-s frequency=11661540H pos=28.2E modulation=qpsk symbolrate=27500000 fecinner=2/3
+debug:   * ts tsid=2409 onid=2
+debug:     - desc 43 dvb-s frequency=11623080H pos=28.2E modulation=qpsk symbolrate=27500000 fecinner=2/3
+debug:   * ts tsid=2068 onid=2
+debug:     - desc 43 dvb-s frequency=11126500V pos=28.2E modulation=qpsk symbolrate=22000000 fecinner=5/6
+debug:   * ts tsid=2006 onid=2
+debug:     - desc 43 dvb-s frequency=11817000V pos=28.2E modulation=qpsk symbolrate=27500000 fecinner=2/3
+debug:   * ts tsid=2009 onid=2
+debug:     - desc 43 dvb-s frequency=11875500H pos=28.2E modulation=qpsk symbolrate=27500000 fecinner=2/3
+debug:   * ts tsid=2313 onid=2
+debug:     - desc 43 dvb-s frequency=11344500H pos=28.2E modulation=qpsk symbolrate=27500000 fecinner=2/3
+debug:   * ts tsid=2018 onid=2
+debug:     - desc 43 dvb-s frequency=12051000V pos=28.2E modulation=qpsk symbolrate=27500000 fecinner=2/3
+debug:   * ts tsid=2017 onid=2
+debug:     - desc 43 dvb-s frequency=12031500H pos=28.2E modulation=qpsk symbolrate=27500000 fecinner=2/3
+debug:   * ts tsid=2063 onid=2
+debug:     - desc 43 dvb-s frequency=11052750H pos=28.2E modulation=qpsk symbolrate=22000000 fecinner=5/6
+debug:   * ts tsid=2302 onid=2
+debug:     - desc 43 dvb-s frequency=11259670V pos=28.2E modulation=qpsk symbolrate=27500000 fecinner=2/3
+debug:   * ts tsid=2611 onid=2
+debug:     - desc 43 dvb-s frequency=12523000H pos=28.2E modulation=qpsk symbolrate=27500000 fecinner=2/3
+debug:   * ts tsid=2601 onid=2
+debug:     - desc 43 dvb-s frequency=12559670H pos=28.2E modulation=qpsk symbolrate=27500000 fecinner=2/3
+debug:   * ts tsid=2613 onid=2
+debug:     - desc 43 dvb-s frequency=12606650H pos=28.2E modulation=qpsk symbolrate=27500000 fecinner=2/3
+debug:   * ts tsid=2603 onid=2
+debug:     - desc 43 dvb-s frequency=12643350H pos=28.2E modulation=qpsk symbolrate=27500000 fecinner=2/3
+debug:   * ts tsid=2402 onid=2
+debug:     - desc 43 dvb-s frequency=11488460V pos=28.2E modulation=qpsk symbolrate=27500000 fecinner=2/3
+debug:   * ts tsid=2041 onid=2
+debug:     - desc 43 dvb-s frequency=10714000H pos=28.2E modulation=qpsk symbolrate=22000000 fecinner=5/6
+debug:   * ts tsid=2057 onid=2
+debug:     - desc 43 dvb-s frequency=10964250H pos=28.2E modulation=qpsk symbolrate=22000000 fecinner=5/6
+debug:   * ts tsid=2036 onid=2
+debug:     - desc 43 dvb-s frequency=10993750H pos=28.2E modulation=qpsk symbolrate=22000000 fecinner=5/6
+debug:   * ts tsid=2049 onid=2
+debug:     - desc 43 dvb-s frequency=10832250H pos=28.2E modulation=qpsk symbolrate=22000000 fecinner=5/6
+debug:   * ts tsid=2053 onid=2
+debug:     - desc 43 dvb-s frequency=10891250H pos=28.2E modulation=qpsk symbolrate=22000000 fecinner=5/6
+debug:   * ts tsid=2054 onid=2
+debug:     - desc 43 dvb-s frequency=10906000V pos=28.2E modulation=qpsk symbolrate=22000000 fecinner=5/6
+debug:   * ts tsid=2044 onid=2
+debug:     - desc 43 dvb-s frequency=10758500V pos=28.2E modulation=qpsk symbolrate=22000000 fecinner=5/6
+debug:   * ts tsid=2040 onid=2
+debug:     - desc 43 dvb-s frequency=12480000V pos=28.2E modulation=qpsk symbolrate=27500000 fecinner=2/3
+debug:   * ts tsid=2602 onid=2
+debug:     - desc 43 dvb-s frequency=12560020V pos=28.2E modulation=qpsk symbolrate=27500000 fecinner=2/3
+debug:   * ts tsid=2304 onid=2
+debug:     - desc 43 dvb-s frequency=11343000V pos=28.2E modulation=qpsk symbolrate=27500000 fecinner=2/3
+debug:   * ts tsid=2015 onid=2
+debug:     - desc 43 dvb-s frequency=11992500H pos=28.2E modulation=qpsk symbolrate=27500000 fecinner=2/3
+debug:   * ts tsid=2311 onid=2
+debug:     - desc 43 dvb-s frequency=11222170H pos=28.2E modulation=qpsk symbolrate=27500000 fecinner=2/3
+debug:   * ts tsid=2042 onid=2
+debug:     - desc 43 dvb-s frequency=10729000V pos=28.2E modulation=qpsk symbolrate=22000000 fecinner=5/6
+debug:   * ts tsid=2316 onid=2
+debug:     - desc 43 dvb-s frequency=11390330V pos=28.2E modulation=qpsk symbolrate=27500000 fecinner=2/3
+debug:   * ts tsid=2301 onid=2
+debug:     - desc 43 dvb-s frequency=11261170H pos=28.2E modulation=qpsk symbolrate=27500000 fecinner=2/3
+debug:   * ts tsid=2303 onid=2
+debug:     - desc 43 dvb-s frequency=11307000H pos=28.2E modulation=qpsk symbolrate=27500000 fecinner=2/3
+debug:   * ts tsid=2314 onid=2
+debug:     - desc 43 dvb-s frequency=11307000V pos=28.2E modulation=qpsk symbolrate=27500000 fecinner=2/3
+debug:   * ts tsid=2604 onid=2
+debug:     - desc 43 dvb-s frequency=12643350V pos=28.2E modulation=qpsk symbolrate=27500000 fecinner=2/3
+debug:   * ts tsid=2315 onid=2
+debug:     - desc 43 dvb-s frequency=11390000H pos=28.2E modulation=qpsk symbolrate=27500000 fecinner=2/3
+debug: end NIT
+debug: answering 2 to 3 with size 184

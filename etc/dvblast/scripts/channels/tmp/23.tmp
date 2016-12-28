@@ -1,0 +1,17 @@
+Sky Sports 2             (0x107e) 01: PCR 0x1ffe V 0x0205 A 0x0285 (eng)
+yd1oe6                   (0x1210) 01: PCR 0x1ffe V 0x0204 A 0x0284 (eng)
+Sky News                 (0x1260) 01: PCR 0x1ffe V 0x0200 A 0x0280 (eng) TT 0x0240
+Sky News                 (0x1262) 01: PCR 0x1ffe V 0x0201 A 0x0281 (eng) TT 0x0241
+SNR                      (0x1284) 02: PCR 0x1ffe          A 0x0295 (eng)
+PICK TV+1                (0x13f3) 01: PCR 0x1ffe V 0x0204 A 0x0284 (eng) 0x0298 (NAR) TT 0x0244
+Sky Sports 2             (0x1581) 01: PCR 0x1ffe V 0x0205 A 0x0285 (eng) 0x0299 (NAR) TT 0x0245
+1869                     (0x15e6) 01: PCR 0x1ffe V 0x0205 A 0x0285 (eng) 0x0299 (NAR) TT 0x0245
+Sky Bet Reg              (0x1f47) 82:                    
+iSales Hardware          (0x1f69) 82:                    
+Vegas Cashino            (0x1fe2) 82:                     A 0x0e6b 0x0e6c
+Sky Itext Holidays       (0x1ffc) 82:                     A 0x0915      
+Highlight Videos         (0x2018) 82:            V 0x0c03 A 0x0c04      
+Sky News Active iText Qu (0x201a) 82:            V 0x0202 A 0x0282 (ben) 0x0283 (bul) 0x0296 (ben) 0x0297 (bul)
+Vegas Monty Python       (0x20cf) 82:                     A 0x09ee 0x09ef
+8039                     (0x20d0) 01: PCR 0x1ffe V 0x0200 A 0x0280 (eng) TT 0x0242
+Sky News                 (0x1263) 82:                    

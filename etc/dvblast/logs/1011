@@ -1,0 +1,224 @@
+DVBlast 2.2 (release)
+warning: restarting
+warning: raw UDP output is deprecated.  Please consider using RTP.
+warning: for DVB-IP compliance you should use RTP.
+debug: using linux-dvb API version 5
+debug: Frontend "STB0899 Multistandard" type "QPSK (DVB-S/S2)" supports:
+debug:  frequency min: 950000, max: 2150000, stepsize: 0, tolerance: 0
+debug:  symbolrate min: 5000000, max: 45000000, tolerance: 0
+debug:  capabilities:
+debug:   INVERSION_AUTO
+debug:   FEC_AUTO
+debug:   QPSK
+debug:   2G_MODULATION
+debug: frequency 11804000 is in Ku-band (higher)
+debug: configuring LNB to v=13 p=0 satnum=1
+debug: tuning QPSK frontend to f=11804000 srate=27500000 inversion=-1 fec=999 rolloff=35 modulation=legacy pilot=-1
+warning: failed opening CAM device /dev/dvb/adapter1011/ca0 (No such file or directory)
+debug: setting filter on PID 0
+debug: setting filter on PID 16
+debug: setting filter on PID 17
+debug: setting filter on PID 18
+debug: setting filter on PID 19
+debug: setting filter on PID 20
+warning: couldn't set thread priority: Operation not permitted
+debug: conf: 239.0.91.1:1234 config=0x9 sid=3309 pids[0]
+debug: conf: 239.0.91.2:1234 config=0x9 sid=3310 pids[0]
+debug: conf: 239.0.91.3:1234 config=0x9 sid=3305 pids[0]
+debug: conf: 239.0.91.4:1234 config=0x9 sid=3307 pids[0]
+debug: conf: 239.0.91.5:1234 config=0x9 sid=3301 pids[0]
+debug: conf: 239.0.91.6:1234 config=0x9 sid=3302 pids[0]
+debug: conf: 239.0.91.8:1234 config=0x9 sid=3308 pids[0]
+debug: frontend has acquired carrier
+debug: frontend has acquired stable FEC
+debug: frontend has acquired sync
+info: frontend has acquired lock
+debug: - Bit error rate: 0
+debug: - Signal strength: 155
+debug: - SNR: 132
+debug: new SDT actual tsid=5400 version=11 onid=318
+debug:   * service sid=3309 eit_pf running=4
+debug:     - desc 48 service type=0x1 provider="Rai" service="TV2000"
+debug:   * service sid=3310 eit_pf running=4
+debug:     - desc 48 service type=0x1 provider="Rai" service="Rai Gulp"
+debug:   * service sid=3305 eit_pf running=4
+debug:     - desc 48 service type=0x1 provider="Rai" service="Rai Sport 1"
+debug:   * service sid=3307 eit_pf running=4
+debug:     - desc 48 service type=0x1 provider="Rai" service="Rai Storia"
+debug:   * service sid=3301 eit_pf running=4
+debug:     - desc 48 service type=0x1 provider="Rai" service="Rai Sport 2"
+debug:   * service sid=3302 eit_pf running=4
+debug:     - desc 48 service type=0x1 provider="Rai" service="Camera Deputati"
+debug:   * service sid=3306 eit_pf running=4
+debug:     - desc 48 service type=0x1 provider="Rai" service="Rai Premium"
+debug:   * service sid=3308 eit_pf running=4
+debug:     - desc 48 service type=0x1 provider="Rai" service="RaiNettunoSat1"
+debug:   * service sid=3311 eit_pf running=4
+debug:     - desc 48 service type=0x2 provider="Rai" service="Rai Radio1"
+debug:   * service sid=3312 eit_pf running=4
+debug:     - desc 48 service type=0x2 provider="Rai" service="Rai Radio2"
+debug:   * service sid=3313 eit_pf running=4
+debug:     - desc 48 service type=0x2 provider="Rai" service="Rai Radio3"
+debug:   * service sid=3317 eit_pf running=4
+debug:     - desc 48 service type=0x2 provider="Rai" service="GR Parlamento"
+debug:   * service sid=3315 eit_pf running=4
+debug:     - desc 48 service type=0x2 provider="Rai" service="Rai radiofd5"
+debug:   * service sid=3320 eit_pf running=4
+debug:     - desc 48 service type=0x2 provider="Rai" service="Radio Vaticana"
+debug:   * service sid=3318 eit_pf running=4
+debug:     - desc 48 service type=0x2 provider="Rai" service="Rai isoradio"
+debug:   * service sid=3316 eit_pf running=4
+debug:     - desc 48 service type=0x2 provider="Rai" service="BLUSAT2000"
+debug: end SDT
+debug: setting filter on PID 108
+debug: setting filter on PID 126
+debug: setting filter on PID 128
+debug: setting filter on PID 104
+debug: setting filter on PID 103
+debug: setting filter on PID 262
+debug: setting filter on PID 256
+debug: new PAT tsid=5400 version=0
+debug:   * NIT pid=16
+debug:   * program number=3309 pid=108
+debug:   * program number=3325 pid=32
+debug:   * program number=3304 pid=259
+debug:   * program number=3315 pid=129
+debug:   * program number=3310 pid=126
+debug:   * program number=3305 pid=128
+debug:   * program number=3301 pid=104
+debug:   * program number=3307 pid=103
+debug:   * program number=3311 pid=125
+debug:   * program number=3312 pid=102
+debug:   * program number=3316 pid=270
+debug:   * program number=3313 pid=107
+debug:   * program number=3302 pid=262
+debug:   * program number=3320 pid=272
+debug:   * program number=3318 pid=271
+debug:   * program number=3306 pid=260
+debug:   * program number=3308 pid=256
+debug:   * program number=3317 pid=273
+debug: end PAT
+debug: setting filter on PID 512
+debug: setting filter on PID 650
+debug: setting filter on PID 581
+debug: new PMT program=3305 version=5 pcrpid=512
+debug:   * ES pid=512 streamtype=0x02 streamtype_txt="13818-2 video (MPEG-2)"
+debug:   * ES pid=650 streamtype=0x04 streamtype_txt="13818-3 audio (MPEG-2)"
+debug:     - desc 0a audio_language language=ita audiotype=0 audiotype_txt="undefined"
+debug:   * ES pid=581 streamtype=0x06 streamtype_txt="13818-1 PES private data"
+debug:     - desc 56 telx language=ita type=0x1 type_txt="Initial teletext page" mag=1 page=0x0x
+debug:   * ES pid=3010 streamtype=0x0b streamtype_txt="13818-6 type B"
+debug:     - desc 52 stream_identifier component_tag=46
+debug:     - desc 66 data_broadcast broadcast_id=0x00f0 selector_byte="" selector_byte_txt=""
+debug:     - desc 13 unknown length=5 value=0000004100
+debug:   * ES pid=6015 streamtype=0x05 streamtype_txt="13818-1 private sections"
+debug:     - desc 6f unknown length=0 value=
+debug: end PMT
+debug: setting filter on PID 517
+debug: setting filter on PID 655
+debug: setting filter on PID 587
+debug: new PMT program=3302 version=0 pcrpid=517
+debug:   * ES pid=517 streamtype=0x02 streamtype_txt="13818-2 video (MPEG-2)"
+debug:   * ES pid=655 streamtype=0x04 streamtype_txt="13818-3 audio (MPEG-2)"
+debug:     - desc 0a audio_language language=ita audiotype=0 audiotype_txt="undefined"
+debug:   * ES pid=587 streamtype=0x06 streamtype_txt="13818-1 PES private data"
+debug:     - desc 56 telx language=ita type=0x1 type_txt="Initial teletext page" mag=1 page=0x0x
+debug: end PMT
+debug: setting filter on PID 514
+debug: setting filter on PID 652
+debug: setting filter on PID 583
+debug: new PMT program=3307 version=5 pcrpid=514
+debug:   * ES pid=514 streamtype=0x02 streamtype_txt="13818-2 video (MPEG-2)"
+debug:   * ES pid=652 streamtype=0x04 streamtype_txt="13818-3 audio (MPEG-2)"
+debug:     - desc 0a audio_language language=ita audiotype=0 audiotype_txt="undefined"
+debug:   * ES pid=583 streamtype=0x06 streamtype_txt="13818-1 PES private data"
+debug:     - desc 56 telx language=ita type=0x1 type_txt="Initial teletext page" mag=1 page=0x0x
+debug:   * ES pid=3010 streamtype=0x0b streamtype_txt="13818-6 type B"
+debug:     - desc 52 stream_identifier component_tag=46
+debug:     - desc 66 data_broadcast broadcast_id=0x00f0 selector_byte="" selector_byte_txt=""
+debug:     - desc 13 unknown length=5 value=0000004100
+debug:   * ES pid=6017 streamtype=0x05 streamtype_txt="13818-1 private sections"
+debug:     - desc 6f unknown length=0 value=
+debug: end PMT
+debug: setting filter on PID 516
+debug: setting filter on PID 654
+debug: setting filter on PID 579
+debug: new PMT program=3301 version=7 pcrpid=516
+debug:   * ES pid=516 streamtype=0x02 streamtype_txt="13818-2 video (MPEG-2)"
+debug:   * ES pid=654 streamtype=0x04 streamtype_txt="13818-3 audio (MPEG-2)"
+debug:     - desc 0a audio_language language=ita audiotype=0 audiotype_txt="undefined"
+debug:   * ES pid=579 streamtype=0x06 streamtype_txt="13818-1 PES private data"
+debug:     - desc 56 telx language=ita type=0x1 type_txt="Initial teletext page" mag=1 page=0x0x
+debug:   * ES pid=3010 streamtype=0x0b streamtype_txt="13818-6 type B"
+debug:     - desc 52 stream_identifier component_tag=46
+debug:     - desc 66 data_broadcast broadcast_id=0x00f0 selector_byte="" selector_byte_txt=""
+debug:     - desc 13 unknown length=5 value=0000004100
+debug:   * ES pid=6014 streamtype=0x05 streamtype_txt="13818-1 private sections"
+debug:     - desc 6f unknown length=0 value=
+debug: end PMT
+debug: setting filter on PID 518
+debug: setting filter on PID 656
+debug: new PMT program=3309 version=0 pcrpid=518
+debug:   * ES pid=518 streamtype=0x02 streamtype_txt="13818-2 video (MPEG-2)"
+debug:   * ES pid=656 streamtype=0x04 streamtype_txt="13818-3 audio (MPEG-2)"
+debug:     - desc 0a audio_language language=ita audiotype=0 audiotype_txt="undefined"
+debug: end PMT
+debug: setting filter on PID 519
+debug: setting filter on PID 657
+debug: setting filter on PID 585
+debug: new PMT program=3308 version=0 pcrpid=519
+debug:   * ES pid=519 streamtype=0x02 streamtype_txt="13818-2 video (MPEG-2)"
+debug:   * ES pid=657 streamtype=0x04 streamtype_txt="13818-3 audio (MPEG-2)"
+debug:     - desc 0a audio_language language=ita audiotype=0 audiotype_txt="undefined"
+debug:   * ES pid=585 streamtype=0x06 streamtype_txt="13818-1 PES private data"
+debug:     - desc 56 telx language=ita type=0x1 type_txt="Initial teletext page" mag=1 page=0x0x
+debug: end PMT
+debug: setting filter on PID 522
+debug: setting filter on PID 663
+debug: setting filter on PID 590
+debug: new PMT program=3310 version=9 pcrpid=522
+debug:   * ES pid=522 streamtype=0x02 streamtype_txt="13818-2 video (MPEG-2)"
+debug:   * ES pid=663 streamtype=0x04 streamtype_txt="13818-3 audio (MPEG-2)"
+debug:     - desc 0a audio_language language=ita audiotype=0 audiotype_txt="undefined"
+debug:   * ES pid=590 streamtype=0x06 streamtype_txt="13818-1 PES private data"
+debug:     - desc 56 telx language=ita type=0x1 type_txt="Initial teletext page" mag=0 page=0x0x
+debug:   * ES pid=3010 streamtype=0x0b streamtype_txt="13818-6 type B"
+debug:     - desc 52 stream_identifier component_tag=46
+debug:     - desc 66 data_broadcast broadcast_id=0x00f0 selector_byte="" selector_byte_txt=""
+debug:     - desc 13 unknown length=5 value=0000004100
+debug:   * ES pid=6018 streamtype=0x05 streamtype_txt="13818-1 private sections"
+debug:     - desc 6f unknown length=0 value=
+debug: end PMT
+debug: new NIT actual networkid=318 version=8
+debug:     - desc 40 networkname="RAI"
+debug:   * ts tsid=5400 onid=318
+debug:     - desc 43 dvb-s frequency=11804200V pos=13.0E modulation=qpsk symbolrate=27500000 fecinner=2/3
+debug:     - desc 41 service_list sid=3305 type=0x01
+debug:     - desc 41 service_list sid=3307 type=0x01
+debug:     - desc 41 service_list sid=3301 type=0x01
+debug:     - desc 41 service_list sid=3308 type=0x01
+debug:     - desc 41 service_list sid=3306 type=0x01
+debug:     - desc 41 service_list sid=3302 type=0x01
+debug:     - desc 41 service_list sid=3309 type=0x01
+debug:     - desc 41 service_list sid=3311 type=0x02
+debug:     - desc 41 service_list sid=3312 type=0x02
+debug:     - desc 41 service_list sid=3313 type=0x02
+debug:     - desc 41 service_list sid=3317 type=0x02
+debug:     - desc 41 service_list sid=3318 type=0x02
+debug:     - desc 41 service_list sid=3316 type=0x02
+debug:     - desc 41 service_list sid=3320 type=0x02
+debug:     - desc 41 service_list sid=3310 type=0x01
+debug:     - desc 41 service_list sid=3315 type=0x02
+debug:     - desc 41 service_list sid=3325 type=0x02
+debug:     - desc 41 service_list sid=3304 type=0x01
+debug:   * ts tsid=5200 onid=318
+debug:     - desc 43 dvb-s frequency=11765840V pos=13.0E modulation=qpsk symbolrate=27500000 fecinner=2/3
+debug:     - desc 41 service_list sid=3401 type=0x01
+debug:     - desc 41 service_list sid=3404 type=0x01
+debug:     - desc 41 service_list sid=3406 type=0x01
+debug:     - desc 41 service_list sid=3408 type=0x01
+debug:     - desc 41 service_list sid=3410 type=0x01
+debug:     - desc 41 service_list sid=3319 type=0x02
+debug:     - desc 41 service_list sid=3314 type=0x02
+debug: end NIT
+debug: answering 2 to 3 with size 184

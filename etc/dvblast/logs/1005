@@ -1,0 +1,393 @@
+DVBlast 2.2 (release)
+warning: restarting
+warning: raw UDP output is deprecated.  Please consider using RTP.
+warning: for DVB-IP compliance you should use RTP.
+debug: using linux-dvb API version 5
+debug: Frontend "STB0899 Multistandard" type "QPSK (DVB-S/S2)" supports:
+debug:  frequency min: 950000, max: 2150000, stepsize: 0, tolerance: 0
+debug:  symbolrate min: 5000000, max: 45000000, tolerance: 0
+debug:  capabilities:
+debug:   INVERSION_AUTO
+debug:   FEC_AUTO
+debug:   QPSK
+debug:   2G_MODULATION
+debug: frequency 12545000 is in Ku-band (higher)
+debug: configuring LNB to v=18 p=0 satnum=2
+debug: tuning QPSK frontend to f=12545000 srate=22000000 inversion=-1 fec=999 rolloff=35 modulation=legacy pilot=-1
+warning: failed opening CAM device /dev/dvb/adapter1005/ca0 (No such file or directory)
+debug: setting filter on PID 0
+debug: setting filter on PID 16
+debug: setting filter on PID 17
+debug: setting filter on PID 18
+debug: setting filter on PID 19
+debug: setting filter on PID 20
+warning: couldn't set thread priority: Operation not permitted
+debug: conf: 239.2.5.1:1234 config=0x9 sid=17500 pids[0]
+debug: conf: 239.2.5.2:1234 config=0x9 sid=17501 pids[0]
+debug: conf: 239.2.5.3:1234 config=0x9 sid=17502 pids[0]
+debug: conf: 239.2.5.4:1234 config=0x9 sid=17503 pids[0]
+debug: conf: 239.2.5.5:1234 config=0x9 sid=17504 pids[0]
+debug: conf: 239.2.5.6:1234 config=0x9 sid=17507 pids[0]
+debug: frontend has acquired carrier
+debug: frontend has acquired stable FEC
+debug: frontend has acquired sync
+info: frontend has acquired lock
+debug: - Bit error rate: 0
+debug: - Signal strength: 80
+debug: - SNR: 169
+debug: setting filter on PID 96
+debug: setting filter on PID 97
+debug: setting filter on PID 98
+debug: setting filter on PID 99
+debug: setting filter on PID 100
+debug: setting filter on PID 103
+debug: new PAT tsid=1107 version=7
+debug:   * NIT pid=16
+debug:   * program number=17500 pid=96
+debug:   * program number=17501 pid=97
+debug:   * program number=17502 pid=98
+debug:   * program number=17503 pid=99
+debug:   * program number=17504 pid=100
+debug:   * program number=17505 pid=101
+debug:   * program number=17506 pid=102
+debug:   * program number=17507 pid=103
+debug:   * program number=17508 pid=104
+debug: end PAT
+debug: new SDT actual tsid=1107 version=1 onid=1
+debug:   * service sid=17500 eit_schedule eit_pf running=4
+debug:     - desc 48 service type=0x1 provider="ProSiebenSat.1" service="SAT.1"
+debug:   * service sid=17501 eit_schedule eit_pf running=4
+debug:     - desc 48 service type=0x1 provider="ProSiebenSat.1" service="ProSieben"
+debug:   * service sid=17502 eit_schedule eit_pf running=4
+debug:     - desc 48 service type=0x1 provider="ProSiebenSat.1" service="kabel eins"
+debug:   * service sid=17503 eit_schedule eit_pf running=4
+debug:     - desc 48 service type=0x1 provider="ProSiebenSat.1" service="N24"
+debug:   * service sid=17504 eit_schedule eit_pf running=4
+debug:     - desc 48 service type=0x1 provider="ProSiebenSat.1" service="SAT.1 Gold"
+debug:   * service sid=17505 eit_schedule eit_pf running=4
+debug:     - desc 48 service type=0x1 provider="ProSiebenSat.1" service="ProSieben MAXX"
+debug:   * service sid=17506 eit_schedule eit_pf running=4 scrambled
+debug:     - desc 48 service type=0x1 provider="ProSiebenSat.1" service="kabel eins classics"
+debug:     - desc 53 ca_identifier ca_sysid=0x1702
+debug:     - desc 53 ca_identifier ca_sysid=0x1801
+debug:   * service sid=17507 eit_schedule eit_pf running=4
+debug:     - desc 48 service type=0x1 provider="ProSiebenSat.1" service="SAT.1 Bayern"
+debug:   * service sid=17508 eit_schedule eit_pf running=4
+debug:     - desc 48 service type=0x1 provider="ProSiebenSat.1" service="SAT.1 NRW"
+debug: end SDT
+debug: setting filter on PID 767
+debug: setting filter on PID 34
+debug: setting filter on PID 768
+debug: new PMT program=17502 version=1 pcrpid=767
+debug:   * ES pid=34 streamtype=0x06 streamtype_txt="13818-1 PES private data"
+debug:     - desc 52 stream_identifier component_tag=10
+debug:     - desc 56 telx language=deu type=0x1 type_txt="Initial teletext page" mag=1 page=0x0x
+debug:     - desc 56 telx language=deu type=0x2 type_txt="Teletext subtitle page" mag=1 page=0x73x
+debug:   * ES pid=767 streamtype=0x02 streamtype_txt="13818-2 video (MPEG-2)"
+debug:     - desc 52 stream_identifier component_tag=1
+debug:   * ES pid=768 streamtype=0x03 streamtype_txt="11172-3 audio (MPEG-1)"
+debug:     - desc 0a audio_language language=deu audiotype=1 audiotype_txt="clean effects"
+debug:     - desc 52 stream_identifier component_tag=3
+debug:   * ES pid=773 streamtype=0x05 streamtype_txt="13818-1 private sections"
+debug:     - desc 6f unknown length=3 value=0010e0
+debug: end PMT
+debug: setting filter on PID 1279
+debug: setting filter on PID 36
+debug: setting filter on PID 1280
+debug: new PMT program=17504 version=1 pcrpid=1279
+debug:   * ES pid=36 streamtype=0x06 streamtype_txt="13818-1 PES private data"
+debug:     - desc 52 stream_identifier component_tag=10
+debug:     - desc 56 telx language=deu type=0x1 type_txt="Initial teletext page" mag=1 page=0x0x
+debug:     - desc 56 telx language=deu type=0x2 type_txt="Teletext subtitle page" mag=1 page=0x73x
+debug:   * ES pid=1279 streamtype=0x02 streamtype_txt="13818-2 video (MPEG-2)"
+debug:     - desc 52 stream_identifier component_tag=1
+debug:   * ES pid=1280 streamtype=0x03 streamtype_txt="11172-3 audio (MPEG-1)"
+debug:     - desc 0a audio_language language=deu audiotype=1 audiotype_txt="clean effects"
+debug:     - desc 52 stream_identifier component_tag=3
+debug: end PMT
+debug: setting filter on PID 1023
+debug: setting filter on PID 35
+debug: setting filter on PID 1024
+debug: new PMT program=17503 version=1 pcrpid=1023
+debug:   * ES pid=35 streamtype=0x06 streamtype_txt="13818-1 PES private data"
+debug:     - desc 52 stream_identifier component_tag=10
+debug:     - desc 56 telx language=deu type=0x1 type_txt="Initial teletext page" mag=1 page=0x0x
+debug:   * ES pid=1023 streamtype=0x02 streamtype_txt="13818-2 video (MPEG-2)"
+debug:     - desc 52 stream_identifier component_tag=2
+debug:   * ES pid=1024 streamtype=0x03 streamtype_txt="11172-3 audio (MPEG-1)"
+debug:     - desc 0a audio_language language=deu audiotype=1 audiotype_txt="clean effects"
+debug:     - desc 52 stream_identifier component_tag=3
+debug: end PMT
+debug: setting filter on PID 511
+debug: setting filter on PID 33
+debug: setting filter on PID 512
+debug: setting filter on PID 515
+debug: new PMT program=17501 version=1 pcrpid=511
+debug:   * ES pid=33 streamtype=0x06 streamtype_txt="13818-1 PES private data"
+debug:     - desc 52 stream_identifier component_tag=10
+debug:     - desc 56 telx language=deu type=0x1 type_txt="Initial teletext page" mag=1 page=0x0x
+debug:     - desc 56 telx language=deu type=0x2 type_txt="Teletext subtitle page" mag=1 page=0x73x
+debug:   * ES pid=511 streamtype=0x02 streamtype_txt="13818-2 video (MPEG-2)"
+debug:     - desc 52 stream_identifier component_tag=1
+debug:   * ES pid=512 streamtype=0x03 streamtype_txt="11172-3 audio (MPEG-1)"
+debug:     - desc 0a audio_language language=deu audiotype=1 audiotype_txt="clean effects"
+debug:     - desc 52 stream_identifier component_tag=3
+debug:   * ES pid=515 streamtype=0x06 streamtype_txt="13818-1 PES private data"
+debug:     - desc 6a ac3 component_type_flag=1 component_type=66 bsid_flag=1 bsid=8 mainid_flag=1 mainid=0 asvc_flag=1 asvc=0
+debug:     - desc 0a audio_language language=deu audiotype=1 audiotype_txt="clean effects"
+debug:     - desc 52 stream_identifier component_tag=7
+debug:   * ES pid=517 streamtype=0x05 streamtype_txt="13818-1 private sections"
+debug:     - desc 6f unknown length=3 value=0010e0
+debug: end PMT
+debug: setting filter on PID 255
+debug: setting filter on PID 32
+debug: setting filter on PID 256
+debug: setting filter on PID 259
+debug: new PMT program=17500 version=2 pcrpid=255
+debug:   * ES pid=32 streamtype=0x06 streamtype_txt="13818-1 PES private data"
+debug:     - desc 52 stream_identifier component_tag=10
+debug:     - desc 56 telx language=deu type=0x1 type_txt="Initial teletext page" mag=1 page=0x0x
+debug:     - desc 56 telx language=deu type=0x2 type_txt="Teletext subtitle page" mag=1 page=0x73x
+debug:   * ES pid=255 streamtype=0x02 streamtype_txt="13818-2 video (MPEG-2)"
+debug:     - desc 52 stream_identifier component_tag=1
+debug:   * ES pid=256 streamtype=0x03 streamtype_txt="11172-3 audio (MPEG-1)"
+debug:     - desc 0a audio_language language=deu audiotype=1 audiotype_txt="clean effects"
+debug:     - desc 52 stream_identifier component_tag=3
+debug:   * ES pid=259 streamtype=0x06 streamtype_txt="13818-1 PES private data"
+debug:     - desc 6a ac3 component_type_flag=1 component_type=66 bsid_flag=1 bsid=8 mainid_flag=1 mainid=0 asvc_flag=1 asvc=0
+debug:     - desc 0a audio_language language=deu audiotype=1 audiotype_txt="clean effects"
+debug:     - desc 52 stream_identifier component_tag=7
+debug:   * ES pid=261 streamtype=0x05 streamtype_txt="13818-1 private sections"
+debug:     - desc 6f unknown length=3 value=0010e0
+debug: end PMT
+debug: new PMT program=17507 version=0 pcrpid=255
+debug:   * ES pid=32 streamtype=0x06 streamtype_txt="13818-1 PES private data"
+debug:     - desc 52 stream_identifier component_tag=10
+debug:     - desc 56 telx language=deu type=0x1 type_txt="Initial teletext page" mag=1 page=0x0x
+debug:   * ES pid=255 streamtype=0x02 streamtype_txt="13818-2 video (MPEG-2)"
+debug:     - desc 52 stream_identifier component_tag=1
+debug:   * ES pid=256 streamtype=0x04 streamtype_txt="13818-3 audio (MPEG-2)"
+debug:     - desc 0a audio_language language=deu audiotype=1 audiotype_txt="clean effects"
+debug:     - desc 52 stream_identifier component_tag=3
+debug:   * ES pid=259 streamtype=0x06 streamtype_txt="13818-1 PES private data"
+debug:     - desc 6a ac3 component_type_flag=1 component_type=66 bsid_flag=1 bsid=8 mainid_flag=1 mainid=0 asvc_flag=1 asvc=0
+debug:     - desc 0a audio_language language=deu audiotype=1 audiotype_txt="clean effects"
+debug:     - desc 52 stream_identifier component_tag=7
+debug:   * ES pid=261 streamtype=0x05 streamtype_txt="13818-1 private sections"
+debug:     - desc 6f unknown length=3 value=0010e0
+debug: end PMT
+debug: new NIT actual networkid=1 version=0
+debug:     - desc 40 networkname="ASTRA 1"
+debug:     - desc 4a linkage tsid=1108 onid=1 sid=12 linkage=0x01 linkage_txt="information service"
+debug:     - desc 4a linkage tsid=1111 onid=1 sid=13 linkage=0x01 linkage_txt="information service"
+debug:     - desc 4a linkage tsid=1111 onid=1 sid=0 linkage=0x04 linkage_txt="TS containing complete Network/Bouquet SI"
+debug:     - desc 4a linkage tsid=1108 onid=1 sid=0 linkage=0x04 linkage_txt="TS containing complete Network/Bouquet SI"
+debug:     - desc 4a linkage tsid=1111 onid=1 sid=0 linkage=0x0a linkage_txt="TS containing SSU BAT or NIT (TS 102 006 [11])"
+debug:     - desc 4a linkage tsid=1120 onid=1 sid=0 linkage=0x0c linkage_txt="TS containing INT BAT or NIT (EN 301 192 [4])"
+debug:     - desc 4a linkage tsid=1120 onid=1 sid=6006 linkage=0x07 linkage_txt="RCS Map"
+debug:     - desc 5f private_data specifier=0x00000001
+debug:     - desc 4a linkage tsid=1111 onid=1 sid=7910 linkage=0x90 linkage_txt="user defined"
+debug:     - desc 4a linkage tsid=1007 onid=1 sid=4919 linkage=0x91 linkage_txt="user defined"
+debug:     - desc 4a linkage tsid=1111 onid=1 sid=7911 linkage=0x93 linkage_txt="user defined"
+debug:   * ts tsid=2 onid=133
+debug:     - desc 43 dvb-s frequency=11797500H pos=19.2E modulation=qpsk symbolrate=27500000 fecinner=3/4
+debug:   * ts tsid=3 onid=133
+debug:     - desc 43 dvb-s frequency=11719500H pos=19.2E modulation=qpsk symbolrate=27500000 fecinner=3/4
+debug:   * ts tsid=4 onid=133
+debug:     - desc 43 dvb-s frequency=12031500H pos=19.2E modulation=qpsk symbolrate=27500000 fecinner=3/4
+debug:   * ts tsid=1 onid=133
+debug:     - desc 43 dvb-s frequency=12070500H pos=19.2E modulation=qpsk symbolrate=27500000 fecinner=3/4
+debug:   * ts tsid=17 onid=133
+debug:     - desc 43 dvb-s frequency=11758500H pos=19.2E modulation=qpsk symbolrate=27500000 fecinner=3/4
+debug:   * ts tsid=6 onid=133
+debug:     - desc 43 dvb-s2 frequency=11914500H pos=19.2E rolloff=0.35 modulation=qpsk symbolrate=27500000 fecinner=9/10
+debug:   * ts tsid=13 onid=133
+debug:     - desc 43 dvb-s2 frequency=11992500H pos=19.2E rolloff=0.35 modulation=qpsk symbolrate=27500000 fecinner=9/10
+debug:   * ts tsid=12 onid=133
+debug:     - desc 43 dvb-s2 frequency=12304500H pos=19.2E rolloff=0.35 modulation=qpsk symbolrate=27500000 fecinner=9/10
+debug:   * ts tsid=11 onid=133
+debug:     - desc 43 dvb-s2 frequency=12382500H pos=19.2E rolloff=0.35 modulation=qpsk symbolrate=27500000 fecinner=9/10
+debug:   * ts tsid=14 onid=133
+debug:     - desc 43 dvb-s2 frequency=11875500H pos=19.2E rolloff=0.35 modulation=8psk symbolrate=27500000 fecinner=3/4
+debug:   * ts tsid=10 onid=133
+debug:     - desc 43 dvb-s2 frequency=11332250H pos=19.2E rolloff=0.35 modulation=8psk symbolrate=22000000 fecinner=3/4
+debug:   * ts tsid=15 onid=133
+debug:     - desc 43 dvb-s frequency=10920750H pos=19.2E modulation=qpsk symbolrate=22000000 fecinner=7/8
+debug:   * ts tsid=7 onid=133
+debug:     - desc 43 dvb-s frequency=12148500H pos=19.2E modulation=qpsk symbolrate=27500000 fecinner=3/4
+debug:   * ts tsid=5 onid=133
+debug:     - desc 43 dvb-s frequency=12460500H pos=19.2E modulation=qpsk symbolrate=27500000 fecinner=3/4
+debug:   * ts tsid=33 onid=133
+debug:     - desc 43 dvb-s frequency=12480000V pos=19.2E modulation=qpsk symbolrate=27500000 fecinner=3/4
+debug:   * ts tsid=1107 onid=1
+debug:     - desc 43 dvb-s frequency=12544750H pos=19.2E modulation=qpsk symbolrate=22000000 fecinner=5/6
+debug:   * ts tsid=1082 onid=1
+debug:     - desc 43 dvb-s frequency=12051000V pos=19.2E modulation=qpsk symbolrate=27500000 fecinner=3/4
+debug:   * ts tsid=1017 onid=1
+debug:     - desc 43 dvb-s2 frequency=11464250H pos=19.2E rolloff=0.35 modulation=8psk symbolrate=22000000 fecinner=2/3
+debug:   * ts tsid=1057 onid=1
+debug:     - desc 43 dvb-s2 frequency=10832250H pos=19.2E rolloff=0.35 modulation=8psk symbolrate=22000000 fecinner=2/3
+debug:   * ts tsid=1053 onid=1
+debug:     - desc 43 dvb-s2 frequency=10773250H pos=19.2E rolloff=0.20 modulation=8psk symbolrate=22000000 fecinner=3/4
+debug:   * ts tsid=1109 onid=1
+debug:     - desc 43 dvb-s2 frequency=12574250H pos=19.2E rolloff=0.35 modulation=8psk symbolrate=22000000 fecinner=2/3
+debug:   * ts tsid=1015 onid=1
+debug:     - desc 43 dvb-s frequency=11420750H pos=19.2E modulation=qpsk symbolrate=22000000 fecinner=5/6
+debug:   * ts tsid=1024 onid=1
+debug:     - desc 43 dvb-s frequency=11567500V pos=19.2E modulation=qpsk symbolrate=22000000 fecinner=5/6
+debug:   * ts tsid=1066 onid=1
+debug:     - desc 43 dvb-s frequency=11739000V pos=19.2E modulation=qpsk symbolrate=27500000 fecinner=3/4
+debug:   * ts tsid=1068 onid=1
+debug:     - desc 43 dvb-s frequency=11778000V pos=19.2E modulation=qpsk symbolrate=27500000 fecinner=3/4
+debug:   * ts tsid=1070 onid=1
+debug:     - desc 43 dvb-s2 frequency=11817000V pos=19.2E rolloff=0.25 modulation=8psk symbolrate=29700000 fecinner=2/3
+debug:   * ts tsid=1113 onid=1
+debug:     - desc 43 dvb-s frequency=12633250H pos=19.2E modulation=qpsk symbolrate=22000000 fecinner=5/6
+debug:   * ts tsid=1074 onid=1
+debug:     - desc 43 dvb-s frequency=11895000V pos=19.2E modulation=qpsk symbolrate=27500000 fecinner=3/4
+debug:   * ts tsid=1076 onid=1
+debug:     - desc 43 dvb-s frequency=11934000V pos=19.2E modulation=qpsk symbolrate=27500000 fecinner=3/4
+debug:   * ts tsid=1078 onid=1
+debug:     - desc 43 dvb-s frequency=11973000V pos=19.2E modulation=qpsk symbolrate=27500000 fecinner=3/4
+debug:   * ts tsid=1079 onid=1
+debug:     - desc 43 dvb-s frequency=11953500H pos=19.2E modulation=qpsk symbolrate=27500000 fecinner=3/4
+debug:   * ts tsid=1086 onid=1
+debug:     - desc 43 dvb-s2 frequency=12129000V pos=19.2E rolloff=0.35 modulation=8psk symbolrate=27500000 fecinner=2/3
+debug:   * ts tsid=1089 onid=1
+debug:     - desc 43 dvb-s frequency=12187500H pos=19.2E modulation=qpsk symbolrate=27500000 fecinner=3/4
+debug:   * ts tsid=1059 onid=1
+debug:     - desc 43 dvb-s frequency=10861750H pos=19.2E modulation=qpsk symbolrate=22000000 fecinner=7/8
+debug:   * ts tsid=1091 onid=1
+debug:     - desc 43 dvb-s frequency=12226500H pos=19.2E modulation=qpsk symbolrate=27500000 fecinner=3/4
+debug:   * ts tsid=1094 onid=1
+debug:     - desc 43 dvb-s frequency=12285000V pos=19.2E modulation=qpsk symbolrate=27500000 fecinner=3/4
+debug:   * ts tsid=1096 onid=1
+debug:     - desc 43 dvb-s frequency=12324000V pos=19.2E modulation=qpsk symbolrate=27500000 fecinner=3/4
+debug:   * ts tsid=1097 onid=53
+debug:     - desc 43 dvb-s frequency=12343500H pos=19.2E modulation=qpsk symbolrate=27500000 fecinner=3/4
+debug:   * ts tsid=1098 onid=1
+debug:     - desc 43 dvb-s frequency=12363000V pos=19.2E modulation=qpsk symbolrate=27500000 fecinner=3/4
+debug:   * ts tsid=1101 onid=1
+debug:     - desc 43 dvb-s frequency=11836500H pos=19.2E modulation=qpsk symbolrate=27500000 fecinner=3/4
+debug:   * ts tsid=1201 onid=1
+debug:     - desc 43 dvb-s frequency=12421500H pos=19.2E modulation=qpsk symbolrate=27500000 fecinner=3/4
+debug:   * ts tsid=1100 onid=1
+debug:     - desc 43 dvb-s frequency=12402000V pos=19.2E modulation=qpsk symbolrate=27500000 fecinner=3/4
+debug:   * ts tsid=1108 onid=1
+debug:     - desc 43 dvb-s frequency=12551500V pos=19.2E modulation=qpsk symbolrate=22000000 fecinner=5/6
+debug:   * ts tsid=1111 onid=1
+debug:     - desc 43 dvb-s frequency=12603750H pos=19.2E modulation=qpsk symbolrate=22000000 fecinner=5/6
+debug:   * ts tsid=1105 onid=53
+debug:     - desc 43 dvb-s frequency=12515250H pos=19.2E modulation=qpsk symbolrate=22000000 fecinner=5/6
+debug:   * ts tsid=1008 onid=1
+debug:     - desc 43 dvb-s frequency=11317500V pos=19.2E modulation=qpsk symbolrate=22000000 fecinner=5/6
+debug:   * ts tsid=1011 onid=1
+debug:     - desc 43 dvb-s2 frequency=11361750H pos=19.2E rolloff=0.35 modulation=8psk symbolrate=22000000 fecinner=2/3
+debug:   * ts tsid=1012 onid=1
+debug:     - desc 43 dvb-s2 frequency=11376500V pos=19.2E rolloff=0.35 modulation=8psk symbolrate=22000000 fecinner=2/3
+debug:   * ts tsid=1026 onid=1
+debug:     - desc 43 dvb-s frequency=11597000V pos=19.2E modulation=qpsk symbolrate=22000000 fecinner=5/6
+debug:   * ts tsid=1038 onid=1
+debug:     - desc 43 dvb-s frequency=11038000V pos=19.2E modulation=qpsk symbolrate=22000000 fecinner=5/6
+debug:   * ts tsid=1046 onid=1
+debug:     - desc 43 dvb-s frequency=11156000V pos=19.2E modulation=qpsk symbolrate=22000000 fecinner=5/6
+debug:   * ts tsid=1117 onid=1
+debug:     - desc 43 dvb-s frequency=12692250H pos=19.2E modulation=qpsk symbolrate=22000000 fecinner=5/6
+debug:   * ts tsid=1114 onid=1
+debug:     - desc 43 dvb-s frequency=12640000V pos=19.2E modulation=qpsk symbolrate=22000000 fecinner=5/6
+debug:   * ts tsid=1032 onid=1
+debug:     - desc 43 dvb-s frequency=11685500V pos=19.2E modulation=qpsk symbolrate=22000000 fecinner=5/6
+debug:   * ts tsid=1110 onid=1
+debug:     - desc 43 dvb-s frequency=12581000V pos=19.2E modulation=qpsk symbolrate=22000000 fecinner=5/6
+debug:   * ts tsid=1034 onid=1
+debug:     - desc 43 dvb-s frequency=10979000V pos=19.2E modulation=qpsk symbolrate=22000000 fecinner=5/6
+debug:   * ts tsid=1060 onid=1
+debug:     - desc 43 dvb-s frequency=10876500V pos=19.2E modulation=qpsk symbolrate=22000000 fecinner=5/6
+debug:   * ts tsid=1072 onid=1
+debug:     - desc 43 dvb-s frequency=11856000V pos=19.2E modulation=qpsk symbolrate=27500000 fecinner=3/4
+debug:   * ts tsid=1042 onid=1
+debug:     - desc 43 dvb-s frequency=11097000V pos=19.2E modulation=qpsk symbolrate=22000000 fecinner=5/6
+debug:   * ts tsid=1054 onid=1
+debug:     - desc 43 dvb-s frequency=10788000V pos=19.2E modulation=qpsk symbolrate=22000000 fecinner=5/6
+debug:   * ts tsid=1020 onid=1
+debug:     - desc 43 dvb-s frequency=11508500V pos=19.2E modulation=qpsk symbolrate=22000000 fecinner=5/6
+debug:   * ts tsid=1058 onid=1
+debug:     - desc 43 dvb-s frequency=10847000V pos=19.2E modulation=qpsk symbolrate=22000000 fecinner=5/6
+debug:   * ts tsid=1115 onid=1
+debug:     - desc 43 dvb-s frequency=12662750H pos=19.2E modulation=qpsk symbolrate=22000000 fecinner=5/6
+debug:   * ts tsid=1018 onid=1
+debug:     - desc 43 dvb-s frequency=11479000V pos=19.2E modulation=qpsk symbolrate=22000000 fecinner=5/6
+debug:   * ts tsid=1093 onid=1
+debug:     - desc 43 dvb-s frequency=12265500H pos=19.2E modulation=qpsk symbolrate=27500000 fecinner=3/4
+debug:   * ts tsid=1106 onid=1
+debug:     - desc 43 dvb-s frequency=12522000V pos=19.2E modulation=qpsk symbolrate=22000000 fecinner=5/6
+debug:   * ts tsid=1022 onid=1
+debug:     - desc 43 dvb-s frequency=11538000V pos=19.2E modulation=qpsk symbolrate=22000000 fecinner=5/6
+debug:   * ts tsid=1084 onid=1
+debug:     - desc 43 dvb-s2 frequency=12090000V pos=19.2E rolloff=0.25 modulation=8psk symbolrate=29700000 fecinner=2/3
+debug:   * ts tsid=1073 onid=1
+debug:     - desc 43 dvb-s frequency=12109500H pos=19.2E modulation=qpsk symbolrate=27500000 fecinner=3/4
+debug:   * ts tsid=1112 onid=1
+debug:     - desc 43 dvb-s frequency=12610500V pos=19.2E modulation=qpsk symbolrate=22000000 fecinner=5/6
+debug:   * ts tsid=1118 onid=1
+debug:     - desc 43 dvb-s frequency=12699000V pos=19.2E modulation=qpsk symbolrate=22000000 fecinner=5/6
+debug:   * ts tsid=1120 onid=1
+debug:     - desc 43 dvb-s frequency=12728500V pos=19.2E modulation=qpsk symbolrate=22000000 fecinner=5/6
+debug:   * ts tsid=1051 onid=1
+debug:     - desc 43 dvb-s frequency=10743750H pos=19.2E modulation=qpsk symbolrate=22000000 fecinner=5/6
+debug:   * ts tsid=1119 onid=53
+debug:     - desc 43 dvb-s2 frequency=12721750H pos=19.2E rolloff=0.35 modulation=8psk symbolrate=22000000 fecinner=3/4
+debug:   * ts tsid=1037 onid=1
+debug:     - desc 43 dvb-s frequency=11023250H pos=19.2E modulation=qpsk symbolrate=22000000 fecinner=5/6
+debug:   * ts tsid=1003 onid=1
+debug:     - desc 43 dvb-s frequency=11243750H pos=19.2E modulation=qpsk symbolrate=22000000 fecinner=5/6
+debug:   * ts tsid=1027 onid=1
+debug:     - desc 43 dvb-s frequency=11611750H pos=19.2E modulation=qpsk symbolrate=22000000 fecinner=5/6
+debug:   * ts tsid=1021 onid=1
+debug:     - desc 43 dvb-s frequency=11523250H pos=19.2E modulation=qpsk symbolrate=22000000 fecinner=5/6
+debug:   * ts tsid=1052 onid=1
+debug:     - desc 43 dvb-s frequency=10758500V pos=19.2E modulation=qpsk symbolrate=22000000 fecinner=5/6
+debug:   * ts tsid=1007 onid=1
+debug:     - desc 43 dvb-s2 frequency=11302750H pos=19.2E rolloff=0.35 modulation=8psk symbolrate=22000000 fecinner=2/3
+debug:   * ts tsid=1044 onid=1
+debug:     - desc 43 dvb-s2 frequency=11126500V pos=19.2E rolloff=0.35 modulation=8psk symbolrate=22000000 fecinner=2/3
+debug:   * ts tsid=1031 onid=1
+debug:     - desc 43 dvb-s2 frequency=11670750H pos=19.2E rolloff=0.35 modulation=8psk symbolrate=22000000 fecinner=2/3
+debug:   * ts tsid=1010 onid=1
+debug:     - desc 43 dvb-s2 frequency=11347000V pos=19.2E rolloff=0.35 modulation=8psk symbolrate=22000000 fecinner=2/3
+debug:   * ts tsid=1019 onid=1
+debug:     - desc 43 dvb-s2 frequency=11493750H pos=19.2E rolloff=0.35 modulation=8psk symbolrate=22000000 fecinner=2/3
+debug:   * ts tsid=1025 onid=1
+debug:     - desc 43 dvb-s2 frequency=11582250H pos=19.2E rolloff=0.35 modulation=8psk symbolrate=22000000 fecinner=2/3
+debug:   * ts tsid=1080 onid=1
+debug:     - desc 43 dvb-s2 frequency=12012000V pos=19.2E rolloff=0.25 modulation=8psk symbolrate=29700000 fecinner=2/3
+debug:   * ts tsid=1088 onid=1
+debug:     - desc 43 dvb-s2 frequency=12168000V pos=19.2E rolloff=0.25 modulation=8psk symbolrate=29700000 fecinner=2/3
+debug:   * ts tsid=1090 onid=1
+debug:     - desc 43 dvb-s2 frequency=12207000V pos=19.2E rolloff=0.25 modulation=8psk symbolrate=29700000 fecinner=2/3
+debug:   * ts tsid=1092 onid=1
+debug:     - desc 43 dvb-s2 frequency=12246000V pos=19.2E rolloff=0.25 modulation=8psk symbolrate=29700000 fecinner=2/3
+debug:   * ts tsid=1102 onid=1
+debug:     - desc 43 dvb-s2 frequency=12441000V pos=19.2E rolloff=0.25 modulation=8psk symbolrate=29700000 fecinner=2/3
+debug:   * ts tsid=1016 onid=1
+debug:     - desc 43 dvb-s2 frequency=11435500V pos=19.2E rolloff=0.35 modulation=8psk symbolrate=22000000 fecinner=2/3
+debug:   * ts tsid=1056 onid=1
+debug:     - desc 43 dvb-s2 frequency=10817500V pos=19.2E rolloff=0.35 modulation=8psk symbolrate=22000000 fecinner=2/3
+debug:   * ts tsid=1116 onid=1
+debug:     - desc 43 dvb-s2 frequency=12669500V pos=19.2E rolloff=0.35 modulation=8psk symbolrate=22000000 fecinner=2/3
+debug:   * ts tsid=1050 onid=1
+debug:     - desc 43 dvb-s2 frequency=10729000V pos=19.2E rolloff=0.35 modulation=8psk symbolrate=22000000 fecinner=2/3
+debug:   * ts tsid=1064 onid=1
+debug:     - desc 43 dvb-s2 frequency=10935500V pos=19.2E rolloff=0.35 modulation=8psk symbolrate=22000000 fecinner=2/3
+debug:   * ts tsid=1048 onid=1
+debug:     - desc 43 dvb-s frequency=11185500V pos=19.2E modulation=qpsk symbolrate=22000000 fecinner=5/6
+debug:   * ts tsid=1040 onid=1
+debug:     - desc 43 dvb-s frequency=11067500V pos=19.2E modulation=qpsk symbolrate=22000000 fecinner=5/6
+debug:   * ts tsid=1004 onid=1
+debug:     - desc 43 dvb-s2 frequency=11258500V pos=19.2E rolloff=0.35 modulation=8psk symbolrate=22000000 fecinner=2/3
+debug:   * ts tsid=1055 onid=1
+debug:     - desc 43 dvb-s2 frequency=10802750H pos=19.2E rolloff=0.35 modulation=8psk symbolrate=22000000 fecinner=3/4
+debug:   * ts tsid=1041 onid=1
+debug:     - desc 43 dvb-s2 frequency=11082250H pos=19.2E rolloff=0.20 modulation=8psk symbolrate=22000000 fecinner=3/4
+debug: end NIT
+debug: answering 2 to 3 with size 184

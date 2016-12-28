@@ -1,0 +1,7 @@
+Cartoon Netwrk           (0x1bbc) 01: PCR == V   V 0x0901 A 0x0902 (eng) 0x0903 (NAR) TT 0x090f
+Boomerang +1             (0x1bbd) 01: PCR == V   V 0x0918 A 0x0919 (eng) TT 0x091b
+Boomerang                (0x1bbe) 01: PCR == V   V 0x091d A 0x091e (eng) 0x0920 (NAR) TT 0x0921
+CN Too                   (0x1bbf) 01: PCR == V   V 0x0922 A 0x0923 (eng) 0x0925 (NAR) TT 0x0926
+Toonami I                (0x1bc4) 01: PCR == V   V 0x091d A 0x091e (eng) 0x0920 (NAR) TT 0x0921
+Cartoon I                (0x1bc5) 01: PCR == V   V 0x0901 A 0x0902 (eng) TT 0x090f
+CNN                      (0x1be4) 01: PCR == V   V 0x0910 A 0x0911 (eng) TT 0x0912

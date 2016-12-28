@@ -1,0 +1,18 @@
+TV2000                   (0x0ced) 01: PCR == V   V 0x0206 A 0x0290 (ita)
+[0cfd]                   (0x0cfd) 00:                    
+Rai Test HD              (0x0ce8) 01: PCR == V   V 0x0203 A 0x028d (eng) TT 0x024f
+Rai radiofd5             (0x0cf3) 02: PCR == A            A 0x0299 (ita)
+Rai Gulp                 (0x0cee) 01: PCR == V   V 0x020a A 0x0297 (ita) TT 0x024e
+Rai Sport 1              (0x0ce9) 01: PCR == V   V 0x0200 A 0x028a (ita) TT 0x0245
+Rai Sport 2              (0x0ce5) 01: PCR == V   V 0x0204 A 0x028e (ita) TT 0x0243
+Rai Storia               (0x0ceb) 01: PCR == V   V 0x0202 A 0x028c (ita) TT 0x0247
+Rai Radio1               (0x0cef) 02: PCR == A            A 0x029e (ita)
+Rai Radio2               (0x0cf0) 02: PCR == A            A 0x029f (ita)
+BLUSAT2000               (0x0cf4) 02: PCR == A            A 0x02a5 (ita)
+Rai Radio3               (0x0cf1) 02: PCR == A            A 0x02a0 (ita)
+Camera Deputati          (0x0ce6) 01: PCR == V   V 0x0205 A 0x028f (ita) TT 0x024b
+Radio Vaticana           (0x0cf8) 02: PCR == A            A 0x0294 (ita)
+Rai isoradio             (0x0cf6) 02: PCR == A            A 0x0295 (ita)
+Rai Premium              (0x0cea) 01: PCR == V   V 0x0201 A 0x028b (ita) 0x02ef (Oth) TT 0x024a
+RaiNettunoSat1           (0x0cec) 01: PCR == V   V 0x0207 A 0x0291 (ita) TT 0x0249
+GR Parlam.               (0x0cf5) 02: PCR == A            A 0x0298 (ita)
